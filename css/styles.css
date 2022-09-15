@@ -474,9 +474,6 @@ list-style: none;
   background-color: var(--darkgrey);
   padding: 60px 0;
 }
-.footer-contacts {
-  width: 246px;
-}
 .address-text {
   margin: 20px 0 0 0;
   font-style: normal;
