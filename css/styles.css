@@ -39,7 +39,7 @@ padding-bottom: 94px;
 }
 img {display: block}
 
-p {
+p, h4 {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -470,7 +470,7 @@ list-style: none;
 
 /* Styles for footer section */
 .footer {
-  /* width: 100%; */
+  width: 100%;
   background-color: var(--darkgrey);
   padding: 60px 0;
 }
@@ -502,11 +502,11 @@ list-style: none;
 }
 .footer-header {
   font-weight: 700;
+  line-height: 1.14;
   color: var(--white);
   text-transform: uppercase;
   margin-left: 70px;
   margin-bottom: 20px;
-font-size: 14px;
 }
 .footer-symbols {
   display: flex;
