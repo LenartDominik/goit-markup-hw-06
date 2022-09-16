@@ -664,12 +664,12 @@ margin-left: 78px;
   transition: fill 250ms var(--transition);
 }
 
-.form-highlight:hover > .input-modal,
-.form-highlight:focus-within > .input-modal,
-.form-highlight:hover > .input-modal-text,
-.form-highlight:focus-within > .input-modal-text,
-.form-highlight:hover > .input-modal-icon,
-.form-highlight:focus-within > .input-modal-icon {
+.form-highlight-input:hover > .input-modal,
+.form-highlight-input:focus-within > .input-modal,
+.form-highlight-input:hover > .input-modal-text,
+.form-highlight-input:focus-within > .input-modal-text,
+.form-highlight-input:hover > .input-modal-icon,
+.form-highlight-input:focus-within > .input-modal-icon {
   fill: var(--blue);
   border-color: var(--blue);
   outline: none;
