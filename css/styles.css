@@ -659,7 +659,7 @@ margin-left: 78px;
 }
 
 .input-modal-icon {
-  fill: var(--nav-dark);
+  fill: var(--notblack);
   transition: fill 250ms var(--transition);
 }
 
