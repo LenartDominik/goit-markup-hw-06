@@ -199,6 +199,7 @@ color: var(--iconcolor);
   font-size: 16px;
   text-align: center;
   align-items: center;
+  letter-spacing: 0.06em;
 }
 /* Our speciality section */
 .our-speciality {
@@ -618,7 +619,7 @@ margin-left: 78px;
   top: 8px;
   right: 8px;
 }
-.header-modal {
+.header-modal-box {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
