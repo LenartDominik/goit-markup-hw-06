@@ -731,6 +731,7 @@ list-style: none;
   padding: 10px 76px;
   margin: 0 auto;
   cursor: pointer;
+  transition: background-color 250ms var(--transition);
 }
 
 .box-hidden {
