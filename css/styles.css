@@ -488,6 +488,7 @@ list-style: none;
   flex-direction: row;
   color: var(--white);
   display: flex;
+  gap: 70px;
 }
 .footer-link-list {
   list-style: none;
@@ -501,13 +502,11 @@ list-style: none;
   line-height: 1.14;
   color: var(--white);
   text-transform: uppercase;
-  margin-left: 70px;
   margin-bottom: 20px;
 }
 .footer-symbols {
   display: flex;
   gap: 10px;
-  margin-left: 70px;
   list-style: none;
   padding: 0;
 }
@@ -521,9 +520,6 @@ list-style: none;
   background-color: var(--footericon);
   fill: var(--white);
    transition: 250ms background-color var(--transition);
-}
-.footer-newsletter {
-margin-left: 78px;
 }
 .form-newsletter {
   display: flex;
@@ -541,7 +537,6 @@ margin-left: 78px;
   color: rgba(255, 255, 255, 0.6);
   padding: 15px 16px;
   margin-right: 12px;
-  /* margin-left: 70px; */
   
 }
 .button-newsletter {
