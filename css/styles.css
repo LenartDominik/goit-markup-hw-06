@@ -758,7 +758,6 @@ border: 1px solid var(--blue);
 }
 
 .box-custom {
-  display: block;
   width: 16px;
   height: 15px;
   background-repeat: no-repeat;
