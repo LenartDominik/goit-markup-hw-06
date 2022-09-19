@@ -519,7 +519,7 @@ list-style: none;
   border-radius: 50%;
   background-color: var(--footericon);
   fill: var(--white);
-   transition: 250ms background-color var(--transition);
+  transition: 250ms background-color var(--transition);
 }
 .form-newsletter {
   display: flex;
@@ -537,7 +537,11 @@ list-style: none;
   color: rgba(255, 255, 255, 0.6);
   padding: 15px 16px;
   margin-right: 12px;
-  
+  outline: none;
+  }
+.input-newsletter:hover,
+.input-newsletter:focus {
+border: 1px solid var(--blue);
 }
 .button-newsletter {
   width: 200px;
@@ -613,6 +617,7 @@ list-style: none;
   justify-content: center;
   top: 8px;
   right: 8px;
+
 }
 .header-modal-box {
   font-weight: 700;
