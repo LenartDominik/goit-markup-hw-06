@@ -651,6 +651,7 @@ list-style: none;
   border-radius: 4px;
   padding: 12px 12px 12px 42px;
   margin-bottom: 10px;
+  margin-top: 2px;
   transition: border-color 250ms var(--transition);
 }
 
@@ -708,6 +709,7 @@ list-style: none;
 
 .agreement-text {
   padding-left: 8px;
+  cursor: pointer;
 }
 .agreement-link {
   color: var(--blue);
