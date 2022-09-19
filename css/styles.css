@@ -617,7 +617,11 @@ border: 1px solid var(--blue);
   justify-content: center;
   top: 8px;
   right: 8px;
-
+}
+.btn-modal-close:hover,
+.btn-modal-close:focus {
+    border: 1px solid var(--blue);
+    color: var(--blue);
 }
 .header-modal-box {
   font-weight: 700;
